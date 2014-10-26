@@ -1,0 +1,107 @@
+/* #Basic Styles
+================================================== */
+body{
+	padding: 70px;
+}
+
+#page{
+	width:90%;
+	margin: 0 auto;
+	padding:2%;
+	position: relative;
+	border-radius:15px;
+	box-shadow: 2px 2px 5px #2c2c2c;
+}
+
+article, figcaption, footer, nav, section {
+	display: block; 
+}
+
+/* #Lists
+================================================== */
+ul, ol { 
+	margin-bottom: 20px; 
+}
+ul { 
+	list-style: none outside; 
+	float: right;
+}
+
+/* #Navigation
+================================================== */
+nav{
+	padding-right: 10px;
+}
+.breadcrumb > li + li:before {
+  content: none;
+}
+.navbar-inverse .navbar-toggle {
+	color: white;
+	font-weight: bold;
+	border-color: #9d9da0;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #ddd;
+	color: #069;
+}
+.navbar-inverse .navbar-toggle .glyphicon {
+	color: white;
+}
+.navbar-inverse .navbar-toggle:hover .glyphicon {
+	color: #069;
+}
+body#home a#homenav, 
+body#favorite a#favnav,
+body#search-page a#searchnav,
+body#log-in a#loginnav,
+body#registration a#signupnav
+ {
+    color: #fff; background: #056699;
+}
+
+
+/* #Forms
+================================================== */
+form{	
+	width: 50%;
+	border: 1px solid #9d9da0;
+	padding: 10px;
+	margin: 0px 0px 20px 30px;
+	border-radius: 8px;
+	box-shadow: 0.3125em 0.3125em 0.6875em rgba(0,0,0,0.42)
+}
+form a{
+	float:right;
+}
+fieldset{
+	border-top: 1px solid #ddd;
+	border-bottom: none;
+	border-right: none;
+	border-left:none;
+	margin: 1px;
+}
+
+input[type=text], input[type=submit], input[type=date], input[type=num], textarea, button {
+	border: .1em solid #ddd;
+	background: white;
+	border-radius: 0.3125em;
+	padding: 0.125em;
+	margin: 0;
+	margin-bottom: 0.625em;
+	color: #555;
+}
+label, input, select {
+    display:inline-block; 
+}
+
+/* #Footer
+================================================== */
+footer{
+	clear: both;
+	margin: 20px;
+    background: #9d9da0;
+    width: 100%;
+    border-radius: 1px;
+	text-align: center;
+	box-shadow: 2px 2px 2px #2f4f4f;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Basic Page Needs
+  		================================================== -->
+		<meta charset="utf-8" />
+        <title>Asbury Foster</title>
+        
+        <!-- Mobile Specific Metas
+  		================================================== -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <!-- CSS
+ 		================================================== -->
+	    <link href="css/bootstrap.min.css" rel="stylesheet">
+	    <link href="css/tablecloth.css" rel="stylesheet" />
+	    <link href="css/custom.css" rel="stylesheet">
+	    <script src="js/modernizr.js"></script>
+	    <script scr="js/respond.js"></script>
+	    <script scr="js/jquery.1.7.1.min.js"></script>
+	    <script scr="js/lightbox-2.6.min.js.js"></script>
+	    <script type="text/javascript" src="js/tablecloth.js"></script>
+	     <script>
+  			$(function() {
+    			$( "#datepicker" ).datepicker();
+ 		 	});
+  		</script>
+	   
+    </head>
+    <body>
+    	<div>
+	    	<!-- NAVIGATION
+	 		================================================== -->
+			<div class="row">
+				<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="glyphicon glyphicon-arrow-down"></span>
+						  	MENU
+						</button>
+					</div>
+					<div class="collapse navbar-collapse" id="collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="gallery.html">Gallery</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul> 
+					</div>
+				 </nav> 
+			</div>
+
+			<!-- FORM
+	 		================================================== -->
+			<form action="#" method="POST" name="forms">
+				<a href="img/drake.jpg">
+					<figure><img src="img/drake.jpg" alt="Pic" class="img-responsive" ></a>
+				<h3>Contact Us</h3>
+				<label for="name">First name:</label>
+				<input type="text" name="name" id="name" placeholder="First name" required><br>
+				<label for="lname">Last name:</label>
+				<input type="text" name="lname" id="lname" placeholder="Last name" required><br>
+				<label for="email">Email:</label>
+				<input type="email" name="email" id="email" placeholder="Your email" required><br>
+				<label for="date">Date:</label>
+				<input type="date" name="date" id="datepicker" placeholder="Your email" required><br>
+				<label for="comments">Your Question?</label><br>
+				<select name="reason" id="reason">
+					<option value="poor">Support</option>
+					<option value="good">General Inquiry</option>
+				</select><br />
+				<textarea name="concern" id="concern" rows="15" cols="30" placeholder="Comments or Concerns"></textarea><br>			
+				<input type="submit" name="submit" id="submit">
+			</form>
+		</div>	
+		 <!-- FOOTER
+ 		================================================== -->
+		<footer id="footer">
+			<p>All images are from<a href="https://www.facebook.com/AsburyFosterPhotography"> Asbury Foster Photography</a> 
+			and information is provided by <a href="http://asburyfoster.wix.com/photography#!">Wix.com</a>, <a href="http://www.asburyfosterphotography.com">
+			asburyfosterphotography.com</a>, and <a href="http://www.allmusic.com/artist/asbury-foster-mn0001261803/credits">www.allmusic.com</a></p>
+		</footer>
+	</body>
+</html>		
+			
